@@ -7,4 +7,4 @@ if __name__ == '__main__':
     excels = ["Oblast.xlsx", "Professii_1.xlsx"]
     database_name = "test"
     converter = Converter.Converter(host, user, password, excels, database_name)
-    print(converter.convert_excels_to_sql())
+    converter.convert_excels_to_sql()
